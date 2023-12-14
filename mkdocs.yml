@@ -1,0 +1,8 @@
+site_name: "api-express-ec2-demo"
+site_description: "api-express-ec2-demo"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

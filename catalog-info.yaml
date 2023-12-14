@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "api-express-ec2-demo"
+  description: "api-express-ec2-demo"
+  annotations:
+    github.com/project-slug: veecode-homolog/api-express-ec2-demo
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: cluster-ec2-demo-a
+    github.com/workflows: build.yml
+      
+spec:
+  type: service
+  lifecycle: development
+  owner: "group:default/admin"
+  subcomponentOf: 'cluster:default/cluster-ec2-demo-a'
